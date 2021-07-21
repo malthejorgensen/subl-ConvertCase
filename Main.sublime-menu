@@ -1,0 +1,38 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "Convert Case",
+                        "children": [
+                            {
+                              "caption": "Convert Case: camelCase",
+                              "command": "convert_to_camel_case"
+                            },
+                            {
+                              "caption": "Convert Case: PascalCase",
+                              "command": "convert_to_pascal_case"
+                            },
+                            {
+                              "caption": "Convert Case: snake_case",
+                              "command": "convert_to_snake_case"
+                            },
+                            {
+                              "caption": "Convert Case: SCREAMING_SNAKE_CASE",
+                              "command": "convert_to_screamin_snake_case"
+                            },
+                            {
+                              "caption": "Convert Case: kebab-case",
+                              "command": "convert_to_kebab_case"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+]
